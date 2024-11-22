@@ -1,0 +1,45 @@
+{
+	"name": "Wikicarpedia",
+	"version": "0.2.0",
+	"author": [
+		"Bumsakalaka",
+		"Sincerly"
+	],
+	"url": "",
+	"descriptionmsg": "wikicarpedia-desc",
+	"license-name": "BSD",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"MessagesDirs": {
+		"Wikicarpedia": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"WikicarpediaMagic": "Wikicarpedia.i18n.magic.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Wikicarpedia\\": "src/"
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "Wikicarpedia"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Wikicarpedia\\Hooks"
+		}
+	},
+	"Hooks": {
+		"OutputPageAfterGetHeadLinksArray": {
+			"handler": "main"
+		},
+		"ParserFirstCallInit": {
+			"handler": "main"
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}
