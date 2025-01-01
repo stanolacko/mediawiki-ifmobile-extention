@@ -6,30 +6,30 @@
 		"Sincerly"
 	],
 	"url": "",
-	"descriptionmsg": "wikicarpedia-desc",
+	"descriptionmsg": "ifmobile-desc",
 	"license-name": "BSD",
 	"type": "parserhook",
 	"requires": {
-		"MediaWiki": ">= 1.35.0"
+		"MediaWiki": ">= 1.39.0"
 	},
 	"MessagesDirs": {
-		"Wikicarpedia": [
+		"IfMobile": [
 			"i18n"
 		]
 	},
 	"ExtensionMessagesFiles": {
-		"WikicarpediaMagic": "Wikicarpedia.i18n.magic.php"
+		"IfMobileMagic": "IfMobile.i18n.magic.php"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\Wikicarpedia\\": "src/"
+		"MediaWiki\\Extension\\IfMobile\\": "src/"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteExtPath": "Wikicarpedia"
+		"remoteExtPath": "IfMobile"
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\Wikicarpedia\\Hooks"
+			"class": "MediaWiki\\Extension\\IfMobile\\Hooks"
 		}
 	},
 	"Hooks": {
