@@ -32,7 +32,7 @@
 		}
 	},
 	"Hooks": {
-		"OutputPageAfterGetHeadLinksArray": {
+		"PageRenderingHash": {
 			"handler": "main"
 		},
 		"ParserFirstCallInit": {
