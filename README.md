@@ -22,3 +22,7 @@ IfMobile allows to set different styles, different output directly in templates.
 The main advantage is for translators. They no longer have to translate the same texts several times.
 
 Also, the file sent to the visitor is smaller because the content for desktop does not contain content for mobile device and vice versa.
+
+
+## License ##
+BSD
