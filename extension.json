@@ -1,10 +1,10 @@
 {
 	"name": "IfMobile",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"author": [
-		"Bumsakalaka"
+		"Stano Lacko"
 	],
-	"url": "",
+	"url": "https://www.mediawiki.org/wiki/Extension:IfMobile",
 	"descriptionmsg": "ifmobile-desc",
 	"license-name": "BSD",
 	"type": "parserhook",
