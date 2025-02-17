@@ -1,9 +1,9 @@
 <?php
 
 /**
- * Wikicarpedia.com specific hooks and improvements
+ * Define different output for mobile devices
  *
- * @file Wikicarpedia.i18n.magic.php
+ * @file IfMobile.i18n.magic.php
  * @ingroup Wikicarpedia
  * @author Bumsakalaka
  */
@@ -15,5 +15,5 @@ $magicWords = [];
  * @author Bumsakalaka
  */
 $magicWords['en'] = [
-	'wicalist' => [ 0, 'wicalist' ],
+	'ifmobile' => [ 0, 'ifmobile' ],
 ];
